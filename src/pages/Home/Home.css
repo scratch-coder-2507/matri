@@ -1,12 +1,6 @@
 /* src/pages/Home/Home.css */
 
-.header-title {
-    @apply text-4xl font-bold text-gray-800;
-}
 
-.header-subtitle {
-    @apply text-gray-600 mt-2;
-}
 
 .main-content {
     @apply text-center text-gray-700 my-10;

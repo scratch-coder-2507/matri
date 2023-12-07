@@ -3,11 +3,19 @@
 @tailwind utilities;
 
 @import './pages/Home/Home.css';
+@import './components/Header/Header.css';
+
+@font-face {
+  font-family: 'EuclidCircularA';
+  src: url('./assets/fonts/Euclid\ Circular\ A\ Regular.ttf') format('woff2'),
+       url('./assets/fonts/Euclid\ Circular\ A\ Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'EuclidCircularA',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

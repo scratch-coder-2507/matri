@@ -1,13 +1,11 @@
 import React from 'react';
 import './Home.css';
+import Header from '../../components/Header/Header';
 
 const Home = () => {
     return (
         <div className="container mx-auto px-4">
-            <header className="text-center py-5">
-                <h1 className="header-title">Welcome to Milan Matrimonial</h1>
-                <p className="header-subtitle">Find your perfect match with us.</p>
-            </header>
+            <Header/>
 
             <main className="main-content">
                 <p>Explore profiles, connect, and start your journey.</p>
