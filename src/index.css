@@ -13,6 +13,27 @@
   font-style: normal;
 }
 
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --primaryblack: rgba(5, 0, 23, 1);
+  --primaryorange: rgba(230, 46, 4, 1);
+  --primarywhite: rgba(255, 255, 255, 1);
+  --shade-100: rgba(246, 244, 255, 1);
+  --shade-200: rgba(235, 233, 243, 1);
+  --shade-300: rgba(220, 218, 228, 1);
+  --shade-400: rgba(200, 198, 208, 1);
+  --shade-500: rgba(162, 160, 169, 1);
+  --shade-600: rgba(128, 126, 135, 1);
+  --shade-700: rgba(89, 88, 96, 1);
+  --shade-800: rgba(71, 69, 78, 1);
+  --shade-900: rgba(42, 40, 48, 1);
+}
+
 body {
   margin: 0;
   font-family: 'EuclidCircularA',
