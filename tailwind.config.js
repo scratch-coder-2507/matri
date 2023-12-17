@@ -19,6 +19,9 @@ module.exports = {
         "shade-800": "var(--shade-800)",
         "shade-900": "var(--shade-900)",
       },
+      backgroundImage: {
+        'hsImg': "url('/src/assets/images/RegisterImg.svg')",
+      },
     },
   },
   plugins: [],

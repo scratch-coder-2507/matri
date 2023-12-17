@@ -6,6 +6,8 @@ import Select from "react-select";
 import PremiumMember from "../../components/PremiumMember/PremiumMember";
 import RegisterImg from "../../assets/images/RegisterImg.svg";
 import Pricing from "../../components/Pricing/Pricing";
+import HappyStoriesCom from "../../components/HappyStories/HappyStoriesCom";
+import ContactUsCom from "../../components/ContactUs/ContactUsCom";
 
 const Home = () => {
   const genderOptions = [
@@ -169,6 +171,8 @@ const Home = () => {
           </div>
         </div>
         <Pricing/>
+        <HappyStoriesCom/>
+        <ContactUsCom/>
       </main>
 
       {/* <footer className="footer-text">
