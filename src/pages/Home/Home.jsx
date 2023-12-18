@@ -8,6 +8,7 @@ import RegisterImg from "../../assets/images/RegisterImg.svg";
 import Pricing from "../../components/Pricing/Pricing";
 import HappyStoriesCom from "../../components/HappyStories/HappyStoriesCom";
 import ContactUsCom from "../../components/ContactUs/ContactUsCom";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   const genderOptions = [
@@ -44,7 +45,7 @@ const Home = () => {
   };
 
   return (
-    <div className="px-4">
+    <div>
       <Header />
 
       <main className="text-center text-gray-700 my-10 h-full">
@@ -58,7 +59,7 @@ const Home = () => {
               Search by City, Profession & Community
             </div>
           </div>
-          <div className="h-32 p-6 bg-white rounded-2xl shadow justify-start items-end gap-6 inline-flex">
+          <div className="h-32 p-6 bg-white rounded-2xl shadow justify-start items-end gap-6 inline-flex mx-4">
             <div className="grow shrink basis-0 h-20 justify-start items-start gap-4 flex">
               <div className="grow shrink basis-0 flex-col justify-start items-start gap-2 inline-flex">
                 <div className="flex self-stretch font-bold justify-start items-start text-zinc-800 text-sm font-['Euclid Circular A'] leading-none">
@@ -175,9 +176,9 @@ const Home = () => {
         <ContactUsCom/>
       </main>
 
-      {/* <footer className="footer-text">
-        <p>© 2023 Milan Matrimonial. All rights reserved.</p>
-      </footer> */}
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 };

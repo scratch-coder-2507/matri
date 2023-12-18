@@ -98,11 +98,9 @@ const Pricing = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-10 py-3 rounded-lg border border-red-600 justify-center items-center gap-3 inline-flex">
-              <div className="text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
-                Purchase Now
-              </div>
-            </div>
+            <button className="w-full px-10 py-3 rounded-lg border border-red-600 justify-center items-center gap-3 inline-flex text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
+              Purchase Now
+            </button>
           </div>
           <div className="p-10 w-96 bg-white rounded-2xl border border-slate-200 flex-col justify-start items-start gap-6 inline-flex">
             <div className="px-5 py-3 bg-slate-200 rounded-lg shadow-inner justify-center items-center gap-2.5 inline-flex">
@@ -144,11 +142,9 @@ const Pricing = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-10 py-3 rounded-lg border border-red-600 justify-center items-center gap-3 inline-flex">
-              <div className="text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
-                Purchase Now
-              </div>
-            </div>
+            <button className="w-full px-10 py-3 rounded-lg border border-red-600 justify-center items-center gap-3 inline-flex text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
+              Purchase Now
+            </button>
           </div>
         </div>
         <div className="justify-center items-center gap-8 inline-flex">
@@ -192,11 +188,9 @@ const Pricing = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-10 py-3 rounded-lg border border-red-600 justify-center items-center gap-3 inline-flex">
-              <div className="text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
-                Purchase Now
-              </div>
-            </div>
+            <button className="w-full px-10 py-3 rounded-lg border border-red-600 justify-center items-center gap-3 inline-flex text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
+              Purchase Now
+            </button>
           </div>
           <div className="p-10 w-96 bg-white rounded-2xl border border-slate-200 flex-col justify-start items-start gap-6 inline-flex">
             <div className="px-5 py-3 bg-white rounded-lg shadow-inner border border-slate-200 justify-center items-center gap-2.5 inline-flex">
@@ -238,11 +232,9 @@ const Pricing = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-10 py-3 rounded-lg border border-red-600 justify-center items-center gap-3 inline-flex">
-              <div className="text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
-                Purchase Now
-              </div>
-            </div>
+            <button className="w-full px-10 py-3 rounded-lg border border-red-600 justify-center items-center gap-3 inline-flex text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
+              Purchase Now
+            </button>
           </div>
           <div className="p-10 w-96 bg-white rounded-2xl border border-slate-200 flex-col justify-start items-start gap-6 inline-flex">
             <div className="px-5 py-3 bg-red-600 rounded-lg shadow-inner justify-center items-center gap-2.5 inline-flex">
@@ -284,11 +276,9 @@ const Pricing = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-10 py-3 rounded-lg border border-red-600 justify-center items-center gap-3 inline-flex">
-              <div className="text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
-                Purchase Now
-              </div>
-            </div>
+            <button className="w-full px-10 py-3 rounded-lg border border-red-600 justify-center items-center gap-3 inline-flex text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
+              Purchase Now
+            </button>
           </div>
         </div>
       </div>

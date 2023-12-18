@@ -13,7 +13,7 @@ const HappyStoriesCom = () => {
         </div>
       </div>
       <div className="justify-start items-start gap-5 inline-flex">
-        <div className="w-80 h-80 bg-hsImg bg-contain p-5 from-black to-black rounded-xl flex-col justify-end items-start gap-1 inline-flex">
+        <div className="w-72 h-72 bg-hsImg bg-contain p-5 from-black to-black rounded-xl flex-col justify-end items-start gap-1 inline-flex">
           <div className="text-center text-white text-xl font-medium font-['Euclid Circular A']">
             Priyang & Komal
           </div>
@@ -21,7 +21,7 @@ const HappyStoriesCom = () => {
             Married on June 2023
           </div>
         </div>
-        <div className="w-80 h-80 bg-hsImg bg-contain p-5 from-black to-black rounded-xl flex-col justify-end items-start gap-1 inline-flex">
+        <div className="w-72 h-72 bg-hsImg bg-contain p-5 from-black to-black rounded-xl flex-col justify-end items-start gap-1 inline-flex">
           <div className="text-center text-white text-xl font-medium font-['Euclid Circular A']">
             Priyang & Komal
           </div>
@@ -29,7 +29,7 @@ const HappyStoriesCom = () => {
             Married on June 2023
           </div>
         </div>
-        <div className="w-80 h-80 p-5 bg-hsImg bg-contain from-black to-black rounded-xl flex-col justify-end items-start gap-1 inline-flex">
+        <div className="w-72 h-72 p-5 bg-hsImg bg-contain from-black to-black rounded-xl flex-col justify-end items-start gap-1 inline-flex">
           <div className="text-center text-white text-xl font-medium font-['Euclid Circular A']">
             Priyang & Komal
           </div>
@@ -37,7 +37,7 @@ const HappyStoriesCom = () => {
             Married on June 2023
           </div>
         </div>
-        <div className="w-80 h-80 p-5 bg-hsImg bg-contain from-black to-black rounded-xl flex-col justify-end items-start gap-1 inline-flex">
+        <div className="w-72 h-72 p-5 bg-hsImg bg-contain from-black to-black rounded-xl flex-col justify-end items-start gap-1 inline-flex">
           <div className="text-center text-white text-xl font-medium font-['Euclid Circular A']">
             Priyang & Komal
           </div>

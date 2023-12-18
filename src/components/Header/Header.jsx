@@ -33,7 +33,7 @@ const Header = () => {
     //   </div>
     // </header>
 
-    <header className="px-2 py-6 w-full bg-white border-b border-slate-200 justify-between items-center inline-flex">
+    <header className="px-8 py-6 w-full bg-white border-b border-slate-200 justify-between items-center inline-flex">
       <div className="grow shrink basis-0 justify-start items-center space-x-4 flex">
         <div className="text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
           Home

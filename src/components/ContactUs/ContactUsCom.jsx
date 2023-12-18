@@ -5,7 +5,7 @@ import { IoIosPin } from "react-icons/io";
 
 const ContactUsCom = () => {
   return (
-    <div className="justify-start items-center gap-8 inline-flex mx-20">
+    <div className="justify-start items-center gap-12 inline-flex mx-20">
       <div className="flex-col justify-start items-start gap-10 inline-flex">
         <div className="flex-col justify-start items-start gap-3 flex">
           <div className="text-center text-slate-950 text-5xl font-normal font-['Euclid Circular A']">
@@ -58,7 +58,7 @@ const ContactUsCom = () => {
       </div>
       <div className="p-10 bg-white rounded-2xl border border-slate-200 flex-col justify-start items-start gap-6 inline-flex">
         <div className="justify-start items-start gap-6 inline-flex">
-          <div className="w-80 flex-col justify-start items-start gap-2 inline-flex">
+          <div className="w-72 flex-col justify-start items-start gap-2 inline-flex">
             <div className="text-left self-stretch text-zinc-800 text-sm font-medium font-['Euclid Circular A'] leading-none">
               First Name
             </div>
@@ -70,7 +70,7 @@ const ContactUsCom = () => {
               />
             </div>
           </div>
-          <div className="w-80 flex-col justify-start items-start gap-2 inline-flex">
+          <div className="w-72 flex-col justify-start items-start gap-2 inline-flex">
             <div className="self-stretch text-left text-zinc-800 text-sm font-medium font-['Euclid Circular A'] leading-none">
               Last Name
             </div>
