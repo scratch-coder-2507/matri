@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import './pages/Home/Home.css';
-@import './components/Header/Header.css';
-
 @font-face {
   font-family: 'EuclidCircularA';
   src: url('./assets/fonts/Euclid\ Circular\ A\ Regular.ttf') format('woff2'),

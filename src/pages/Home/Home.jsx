@@ -1,7 +1,5 @@
 import React from "react";
-import "./Home.css";
 import Header from "../../components/Header/Header";
-import { HeaderN } from "../../components/HeaderN";
 import Select from "react-select";
 import PremiumMember from "../../components/PremiumMember/PremiumMember";
 import RegisterImg from "../../assets/images/RegisterImg.svg";

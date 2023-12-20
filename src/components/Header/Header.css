@@ -1,8 +1,0 @@
-
-.header-title {
-    @apply text-4xl font-bold text-gray-800;
-}
-
-.header-subtitle {
-    @apply text-gray-600 mt-2;
-}
