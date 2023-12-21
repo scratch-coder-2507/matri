@@ -25,3 +25,66 @@ export const premiumMembers = [
         following: 10
     }
 ];
+
+export const subscriptionPlans = [
+    {
+        badgeName: "free",
+        name: "Free Trial",
+        price: "0.00",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        feature1: "Express Interests: 0 Timers",
+        feature2:"Direct Messages 200 Times",
+        feature3: "Photo Gallery 10 Image",
+        buttonName: "Sign Up Now"
+    },
+    {
+        badgeName: "bronze",
+        name: "Bronze Tier",
+        price: "3500.00",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        feature1: "Express Interests: 0 Timers",
+        feature2:"Direct Messages 200 Times",
+        feature3: "Photo Gallery 10 Image",
+        buttonName: "Purchase Now"
+    },
+    {
+        badgeName: "silver",
+        name: "Silver Tier",
+        price: "5000.00",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        feature1: "Express Interests: 0 Timers",
+        feature2:"Direct Messages 200 Times",
+        feature3: "Photo Gallery 10 Image",
+        buttonName: "Purchase Now"
+    },
+    {
+        badgeName: "gold",
+        name: "Gold Tier",
+        price: "8500.00",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        feature1: "Express Interests: 0 Timers",
+        feature2:"Direct Messages 200 Times",
+        feature3: "Photo Gallery 10 Image",
+        buttonName: "Purchase Now"
+    },
+    {
+        badgeName: "diamond",
+        name: "Diamond Tier",
+        price: "11500.00",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        feature1: "Express Interests: 0 Timers",
+        feature2:"Direct Messages 200 Times",
+        feature3: "Photo Gallery 10 Image",
+        buttonName: "Purchase Now"
+    },
+    {
+        badgeName: "platinum",
+        name: "Platinum Tier",
+        price: "15000.00",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        feature1: "Express Interests: 0 Timers",
+        feature2:"Direct Messages 200 Times",
+        feature3: "Photo Gallery 10 Image",
+        buttonName: "Purchase Now"
+    }
+];
