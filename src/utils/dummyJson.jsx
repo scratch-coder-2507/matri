@@ -1,26 +1,33 @@
 
+import RegisterImg from "../assets/images/RegisterImg.svg";
+import pm1 from "../assets/images/pm1.png";
+import pm2 from "../assets/images/pm2.svg";
+import pm3 from "../assets/images/pm3.svg";
+import pm4 from "../assets/images/pm4.svg";
+
+
 export const premiumMembers = [
     {
         name: "Ronald Richards",
-        imgUrl: "../assets/images/pm1.svg",
+        imgUrl: pm1,
         followers: 30,
         following: 12
     },
     {
         name: "Kathryn Murphy",
-        imgUrl: "../assets/images/pm2.svg",
+        imgUrl: pm2,
         followers: 20,
         following: 4
     }
     ,{
         name: "Annette Black",
-        imgUrl: "../assets/images/pm3.svg",
+        imgUrl: pm3,
         followers: 2,
         following: 1
     }
     ,{
         name: "Ralph Edwards",
-        imgUrl: "../assets/images/pm4.svg",
+        imgUrl: pm4,
         followers: 12,
         following: 10
     }
@@ -87,4 +94,32 @@ export const subscriptionPlans = [
         feature3: "Photo Gallery 10 Image",
         buttonName: "Purchase Now"
     }
+];
+
+
+export const happyStories = [
+  {
+    hisName: "Freddy",
+    herName: "Scarlet",
+    date: "June 2023",
+    img: RegisterImg,
+  },
+  {
+    hisName: "Trent",
+    herName: "Jenifer",
+    date: "February 2023",
+    img: RegisterImg,
+  },
+  {
+    hisName: "Freddy",
+    herName: "Scarlet",
+    date: "June 2023",
+    img: RegisterImg,
+  },
+  {
+    hisName: "Trent",
+    herName: "Jenifer",
+    date: "February 2023",
+    img: RegisterImg,
+  },
 ];

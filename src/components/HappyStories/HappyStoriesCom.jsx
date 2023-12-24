@@ -1,6 +1,39 @@
 import React from "react";
+import StoriesComponent from "./StoriesComponent";
+import { happyStories } from "../../utils/dummyJson";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const HappyStoriesCom = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+    ],
+    arrows: true,
+  };
   return (
     <div className="flex-col justify-start items-center gap-14 inline-flex my-36">
       <div className="h-28 flex-col justify-start items-center gap-2 flex">
@@ -13,38 +46,16 @@ const HappyStoriesCom = () => {
         </div>
       </div>
       <div className="justify-start items-start gap-5 inline-flex">
-        <div className="w-72 h-72 bg-hsImg bg-contain p-5 from-black to-black rounded-xl flex-col justify-end items-start gap-1 inline-flex">
-          <div className="text-center text-white text-xl font-medium font-['Euclid Circular A']">
-            Priyang & Komal
-          </div>
-          <div className="opacity-60 text-center text-white text-base font-normal font-['Euclid Circular A']">
-            Married on June 2023
-          </div>
-        </div>
-        <div className="w-72 h-72 bg-hsImg bg-contain p-5 from-black to-black rounded-xl flex-col justify-end items-start gap-1 inline-flex">
-          <div className="text-center text-white text-xl font-medium font-['Euclid Circular A']">
-            Priyang & Komal
-          </div>
-          <div className="opacity-60 text-center text-white text-base font-normal font-['Euclid Circular A']">
-            Married on June 2023
-          </div>
-        </div>
-        <div className="w-72 h-72 p-5 bg-hsImg bg-contain from-black to-black rounded-xl flex-col justify-end items-start gap-1 inline-flex">
-          <div className="text-center text-white text-xl font-medium font-['Euclid Circular A']">
-            Priyang & Komal
-          </div>
-          <div className="opacity-60 text-center text-white text-base font-normal font-['Euclid Circular A']">
-            Married on June 2023
-          </div>
-        </div>
-        <div className="w-72 h-72 p-5 bg-hsImg bg-contain from-black to-black rounded-xl flex-col justify-end items-start gap-1 inline-flex">
-          <div className="text-center text-white text-xl font-medium font-['Euclid Circular A']">
-            Priyang & Komal
-          </div>
-          <div className="opacity-60 text-center text-white text-base font-normal font-['Euclid Circular A']">
-            Married on June 2023
-          </div>
-        </div>
+      <Slider {...settings} className="w-full max-w-7xl mx-auto">
+        {happyStories.map((story) => (
+          <StoriesComponent
+            hisName={story.hisName}
+            herName={story.herName}
+            date={story.date}
+            img={story.img}
+          />
+        ))}
+        </Slider>
       </div>
       <button className="px-10 py-3 rounded-lg border border-red-600 justify-center items-center gap-3 inline-flex text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
         Show More
