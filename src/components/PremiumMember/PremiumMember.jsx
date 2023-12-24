@@ -1,29 +1,50 @@
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { premiumMembers } from "../../utils/dummyJson";
 import MemberComponent from "./MemberComponent";
 
 const PremiumMember = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+    arrows: true,
+  };
+
   return (
-    <div className="flex-col justify-start items-center gap-14 inline-flex mt-24">
-      <div className="flex-col justify-start items-center gap-2 flex">
-        <div className="text-center text-slate-950 text-5xl font-normal font-['Euclid Circular A']">
-          Our Premium Member
+    <div className="flex-col justify-center items-center gap-14 flex mt-24">
+      <div className="flex-col justify-center items-center gap-2">
+        <div className="text-center text-slate-950 text-2xl lg:text-5xl font-normal font-['Euclid Circular A']">
+          Our Premium Members
         </div>
-        <div className="self-stretch text-center text-zinc-500 text-xl font-normal font-['Euclid Circular A']">
+        <div className="text-center text-zinc-500 text-lg lg:text-xl font-normal font-['Euclid Circular A']">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center gap-8 mx-6">
+      <Slider {...settings} className="w-full max-w-7xl">
         {premiumMembers.map((member) => (
           <MemberComponent
+            key={member.id}
             name={member.name}
             imgUrl={member.imgUrl}
             followers={member.followers}
             following={member.following}
           />
         ))}
-      </div>
+      </Slider>
       <button className="px-10 py-3 rounded-lg border border-red-600 justify-center items-center gap-3 inline-flex text-center text-red-600 text-base font-medium font-['Euclid Circular A'] leading-normal">
         Show More
       </button>
