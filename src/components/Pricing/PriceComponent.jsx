@@ -11,7 +11,7 @@ const PriceComponent = ({
   buttonName,
 }) => {
   return (
-    <div className="p-10 w-96 bg-white rounded-2xl border border-slate-200 flex-col justify-start items-start gap-6 inline-flex">
+    <div className="p-10 w-72 lg:w-96 bg-white rounded-2xl border border-slate-200 flex-col justify-start items-start gap-6 inline-flex">
       <div
         className={`px-5 py-3 ${
           badgeName === "free"
@@ -47,30 +47,30 @@ const PriceComponent = ({
         <div className="text-center text-zinc-800 text-3xl font-normal font-['Euclid Circular A']">
           {name}
         </div>
-        <div className="text-center text-zinc-800 text-5xl font-light font-['Euclid Circular A']">
-          ₹ {price}
+        <div className="text-left text-zinc-800 text-5xl font-light font-['Euclid Circular A']">
+          ₹{price}
         </div>
       </div>
       <div className="flex-col justify-start items-start gap-4 flex">
-        <div className=" text-zinc-500 text-base font-normal font-['Euclid Circular A'] leading-normal">
+        <div className=" text-zinc-500 text-left text-base font-normal font-['Euclid Circular A'] leading-normal">
           {description}
         </div>
         <div className="flex-col justify-start items-start gap-3 flex">
           <div className="justify-start items-center gap-3 inline-flex">
             <div className="w-5 h-5 relative bg-red-600 rounded shadow" />
-            <div className="text-zinc-800 text-base font-medium font-['Euclid Circular A'] leading-normal">
+            <div className="text-zinc-800 text-left text-base font-medium font-['Euclid Circular A'] leading-normal">
               {feature1}
             </div>
           </div>
           <div className="justify-start items-center gap-3 inline-flex">
             <div className="w-5 h-5 relative bg-red-600 rounded shadow" />
-            <div className="text-zinc-800 text-base font-medium font-['Euclid Circular A'] leading-normal">
+            <div className="text-zinc-800 text-left text-base font-medium font-['Euclid Circular A'] leading-normal">
               {feature2}
             </div>
           </div>
           <div className="justify-start items-center gap-3 inline-flex">
             <div className="w-5 h-5 relative bg-red-600 rounded shadow" />
-            <div className="text-zinc-800 text-base font-medium font-['Euclid Circular A'] leading-normal">
+            <div className="text-zinc-800 text-left text-base font-medium font-['Euclid Circular A'] leading-normal">
               {feature3}
             </div>
           </div>

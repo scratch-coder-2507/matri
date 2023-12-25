@@ -38,10 +38,10 @@ const Pricing = () => {
   return (
     <div className="flex-col justify-center items-center gap-14 mt-24">
       <div className="flex-col justify-start items-center gap-2">
-        <div className="text-center text-slate-950 text-5xl font-normal font-['Euclid Circular A']">
+        <div className="text-center text-slate-950 text-3xl lg:text-5xl font-normal font-['Euclid Circular A']">
           Simple Pricing
         </div>
-        <div className="text-center text-zinc-500 text-xl font-normal font-['Euclid Circular A']">
+        <div className="text-center text-zinc-500 text-base lg:text-xl font-normal font-['Euclid Circular A']">
           Lorem Ipsum is simply dummy text of the printing and
           <br /> typesetting industry. Lorem Ipsum
         </div>

@@ -5,13 +5,13 @@ import { IoIosPin } from "react-icons/io";
 
 const ContactUsCom = () => {
   return (
-    <div className="justify-start items-center gap-12 inline-flex mx-20">
-      <div className="flex-col justify-start items-start gap-10 inline-flex">
-        <div className="flex-col justify-start items-start gap-3 flex">
-          <div className="text-center text-slate-950 text-5xl font-normal font-['Euclid Circular A']">
+    <div className="justify-center items-center lg:flex-row flex-col gap-12 flex mx-20">
+      <div className="flex-col justify-center items-center lg:justify-start: lg:items-start gap-7 lg:gap-10 flex">
+        <div className="flex-col justify-center items-center lg:justify-start lg:items-start gap-3 flex">
+          <div className="text-center lg:text-left text-slate-950 text-3xl lg:text-5xl font-normal font-['Euclid Circular A']">
             Get Into Torch
           </div>
-          <span className="self-stretch justify-start text-left flex items-start text-zinc-500 text-xl font-normal font-['Euclid Circular A'] leading-7">
+          <span className="justify-center text-center lg:justify-start lg:text-left flex items-start text-zinc-500 text-base lg:text-xl font-normal font-['Euclid Circular A'] leading-7">
             To be the No.1 in our niche and introduce new features beneficial to
             members. To continue to grow with a loyal and increasing customer
             network across the globe. No. 1 Matrimonial Site. Easy, Safe &
@@ -22,7 +22,7 @@ const ContactUsCom = () => {
         </div>
         <div className="flex-col justify-start items-start gap-6 flex">
           <div className="flex-col justify-start items-start gap-5 flex">
-            <div className="justify-start items-center gap-3 inline-flex">
+            <div className="justify-start items-center gap-3 flex">
               <div className="p-3 bg-white rounded-3xl border border-slate-200 justify-start items-start gap-2.5 flex">
                 <div className="w-6 h-6 justify-center items-center flex">
                   <FaPhoneAlt className="w-5 h-5" />
@@ -35,7 +35,7 @@ const ContactUsCom = () => {
             <div className="justify-start items-center gap-3 inline-flex">
               <div className="p-3 bg-white rounded-3xl border border-slate-200 justify-start items-start gap-2.5 flex">
                 <div className="w-6 h-6 justify-center items-center flex">
-                <IoMail className="w-6 h-6" />
+                  <IoMail className="w-6 h-6" />
                 </div>
               </div>
               <div className="text-center text-zinc-800 text-base font-normal font-['Euclid Circular A'] text-left">
@@ -45,7 +45,7 @@ const ContactUsCom = () => {
             <div className="justify-start items-start gap-3 inline-flex">
               <div className="p-3 bg-white rounded-3xl border border-slate-200 justify-start items-start gap-2.5 flex">
                 <div className="w-6 h-6 justify-center items-center flex">
-                <IoIosPin className="w-6 h-6" />
+                  <IoIosPin className="w-6 h-6" />
                 </div>
               </div>
               <div className="w-80 text-zinc-800 text-base font-normal font-['Euclid Circular A'] leading-normal text-left">
@@ -56,8 +56,8 @@ const ContactUsCom = () => {
           </div>
         </div>
       </div>
-      <div className="p-10 bg-white rounded-2xl border border-slate-200 flex-col justify-start items-start gap-6 inline-flex">
-        <div className="justify-start items-start gap-6 inline-flex">
+      <div className="p-5 lg:p-10 bg-white rounded-2xl border border-slate-200 flex-col justify-start items-start gap-6 flex">
+        <div className="justify-start items-start gap-6 flex flex-col lg:flex-row">
           <div className="w-72 flex-col justify-start items-start gap-2 inline-flex">
             <div className="text-left self-stretch text-zinc-800 text-sm font-medium font-['Euclid Circular A'] leading-none">
               First Name
@@ -83,12 +83,12 @@ const ContactUsCom = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch justify-start items-start gap-6 inline-flex">
-          <div className="grow shrink basis-0 flex-col justify-start items-start gap-2 inline-flex">
+        <div className="justify-start items-start gap-6 flex flex-col lg:flex-row">
+          <div className="w-72 flex-col justify-start items-start gap-2 flex">
             <div className="text-left self-stretch text-zinc-800 text-sm font-medium font-['Euclid Circular A'] leading-none">
               Email Address
             </div>
-            <div className="self-stretch px-4 py-3.5 bg-white rounded-lg shadow justify-start items-center gap-3 inline-flex">
+            <div className="self-stretch px-4 py-3.5 bg-white rounded-lg shadow justify-start items-center gap-3 flex w-full">
               <input
                 className="grow shrink basis-0 text-zinc-500 text-sm font-normal font-['Euclid Circular A'] leading-tight outline-none"
                 placeholder="Enter your email address"
@@ -96,8 +96,8 @@ const ContactUsCom = () => {
               />
             </div>
           </div>
-          <div className="grow shrink basis-0 flex-col justify-start items-start gap-2 inline-flex">
-            <div className="justify-start items-center gap-2 inline-flex">
+          <div className="flex-col justify-start items-start gap-2 flex">
+            <div className="w-72 justify-start items-center gap-2 flex">
               <div className="text-left text-zinc-800 text-sm font-medium font-['Euclid Circular A'] leading-none">
                 Phone Number
               </div>

@@ -26,10 +26,10 @@ const PremiumMember = () => {
   return (
     <div className="flex-col justify-center items-center gap-14 flex mt-24">
       <div className="flex-col justify-center items-center gap-2">
-        <div className="text-center text-slate-950 text-2xl lg:text-5xl font-normal font-['Euclid Circular A']">
+        <div className="text-center text-slate-950 text-3xl lg:text-5xl font-normal font-['Euclid Circular A']">
           Our Premium Members
         </div>
-        <div className="text-center text-zinc-500 text-lg lg:text-xl font-normal font-['Euclid Circular A']">
+        <div className="text-center text-zinc-500 text-base lg:text-xl font-normal font-['Euclid Circular A']">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum
         </div>
