@@ -11,26 +11,28 @@ const Pricing = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     responsive: [
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 1280,
         settings: {
           slidesToShow: 3,
+          slidesToScroll: 3,
         },
       },
-      {
-        breakpoint: 1440,
-        settings: {
-          slidesToShow: 4,
-        },
-      },
+    //   {
+    //     breakpoint: 1440,
+    //     settings: {
+    //       slidesToShow: 4,
+    //     },
+    //   },
     ],
     arrows: true,
   };
